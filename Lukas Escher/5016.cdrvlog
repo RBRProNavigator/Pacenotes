@@ -136,7 +136,7 @@
       "ForceCombos": false,
       "AttributesControl": false,
       "LinksControl": false,
-      "IsUser": false,
+      "IsUser": true,
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
@@ -244,8 +244,8 @@
           "ContainsTurn": true
         },
         {
-          "Name": "Keep",
-          "Value": "hold",
+          "Name": "NoCut",
+          "Value": "dont.cut",
           "IsPrefixed": false,
           "Position": 2,
           "Components": null,
@@ -367,7 +367,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -195,
+      "DistanceBefore": -199,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -379,8 +379,8 @@
       "Angle2": 0.0,
       "TagList": [
         {
-          "Name": "Keep",
-          "Value": "hold",
+          "Name": "NoCut",
+          "Value": "dont.cut",
           "IsPrefixed": false,
           "Position": 2,
           "Components": null,
