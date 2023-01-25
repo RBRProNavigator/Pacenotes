@@ -5347,15 +5347,6 @@
           "ContainsTurn": false
         },
         {
-          "Name": "TripleCaution",
-          "Value": "!!!",
-          "IsPrefixed": true,
-          "Position": 0,
-          "Components": null,
-          "Origin": 2,
-          "ContainsTurn": false
-        },
-        {
           "Name": null,
           "Value": "D3",
           "IsPrefixed": false,
