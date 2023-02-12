@@ -406,7 +406,7 @@
     },
     {
       "Prg": 9,
-      "Hint": 1,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -433,7 +433,7 @@
       "TagList": [
         {
           "Name": null,
-          "Value": "x P0",
+          "Value": "x L0",
           "IsPrefixed": false,
           "Position": 0,
           "Components": [
@@ -448,7 +448,7 @@
             },
             {
               "Name": null,
-              "Value": "P0",
+              "Value": "L0",
               "IsPrefixed": false,
               "Position": 0,
               "Components": null,
