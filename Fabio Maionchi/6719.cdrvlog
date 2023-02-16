@@ -1598,7 +1598,7 @@
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
-      "CallPointControl": false,
+      "CallPointControl": true,
       "SimplificationControl": false,
       "AudioSet": 0,
       "BlockCombos": false,
@@ -1609,8 +1609,8 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -232,
-      "CallPointOffset": 0.0,
+      "DistanceBefore": -385,
+      "CallPointOffset": -3.3,
       "Text": "",
       "Slope": 0.0,
       "EntryPoint": null,
@@ -1620,6 +1620,15 @@
       "Angle1": 160.0,
       "Angle2": 85.0,
       "TagList": [
+        {
+          "Name": "Slowdown",
+          "Value": "molla",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "S5",
@@ -2338,6 +2347,15 @@
       "Angle1": 120.0,
       "Angle2": 0.0,
       "TagList": [
+        {
+          "Name": "Slowdown",
+          "Value": "molla",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "S3 non.tagl.",
