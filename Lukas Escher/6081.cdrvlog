@@ -131,7 +131,7 @@
           "Name": null,
           "Value": "R6 Lg",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": [
             {
               "Name": null,
@@ -146,7 +146,7 @@
               "Name": "Long",
               "Value": "Lg",
               "IsPrefixed": false,
-              "Position": 0,
+              "Position": 2,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
@@ -170,7 +170,7 @@
       "ForceCombos": true,
       "AttributesControl": true,
       "LinksControl": false,
-      "IsUser": false,
+      "IsUser": true,
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
@@ -180,8 +180,8 @@
       "Slope": 0.0,
       "EntryPoint": null,
       "ExitPoint": null,
-      "DetectedLength": 124,
-      "Start": 190,
+      "DetectedLength": 123,
+      "Start": 191,
       "Angle1": 169.0,
       "Angle2": 0.0,
       "TagList": [
@@ -189,7 +189,7 @@
           "Name": null,
           "Value": "R6 Lg",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": [
             {
               "Name": null,
@@ -204,7 +204,7 @@
               "Name": "Long",
               "Value": "Lg",
               "IsPrefixed": false,
-              "Position": 0,
+              "Position": 2,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
