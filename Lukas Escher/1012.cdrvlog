@@ -113,13 +113,13 @@
       "ForceCombos": false,
       "AttributesControl": true,
       "LinksControl": false,
-      "IsUser": false,
+      "IsUser": true,
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
       "DistanceBefore": 0,
       "CallPointOffset": 0.0,
-      "Text": "",
+      "Text": "made by Lukas Escher",
       "Slope": 0.0,
       "EntryPoint": null,
       "ExitPoint": null,
@@ -1299,18 +1299,9 @@
           "ContainsTurn": false
         },
         {
-          "Name": null,
-          "Value": "R6",
-          "IsPrefixed": false,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": true
-        },
-        {
           "Name": "Caution",
           "Value": "!",
-          "IsPrefixed": false,
+          "IsPrefixed": true,
           "Position": 0,
           "Components": null,
           "Origin": 0,
@@ -1318,24 +1309,42 @@
         },
         {
           "Name": null,
-          "Value": "/ Crest",
+          "Value": "R5",
           "IsPrefixed": false,
           "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": true
+        },
+        {
+          "Name": "Short",
+          "Value": "short",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "/ Jump",
+          "IsPrefixed": false,
+          "Position": 2,
           "Components": [
             {
               "Name": "Over",
               "Value": "/",
               "IsPrefixed": false,
-              "Position": 0,
+              "Position": 2,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
             },
             {
-              "Name": "Crest",
-              "Value": "Crest",
+              "Name": "Jump",
+              "Value": "Jump",
               "IsPrefixed": false,
-              "Position": 0,
+              "Position": 2,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
@@ -1345,10 +1354,10 @@
           "ContainsTurn": false
         },
         {
-          "Name": "Keep",
-          "Value": "hold",
+          "Name": "Maybe",
+          "Value": "maybe",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": null,
           "Origin": 0,
           "ContainsTurn": false
@@ -1369,7 +1378,7 @@
       "ForceCombos": true,
       "AttributesControl": true,
       "LinksControl": false,
-      "IsUser": false,
+      "IsUser": true,
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
@@ -1381,38 +1390,47 @@
       "ExitPoint": null,
       "DetectedLength": 38,
       "Start": 1516,
-      "Angle1": 169.0,
+      "Angle1": 150.0,
       "Angle2": 0.0,
       "TagList": [
         {
           "Name": "Caution",
           "Value": "!",
-          "IsPrefixed": false,
+          "IsPrefixed": true,
           "Position": 0,
           "Components": null,
           "Origin": 2,
           "ContainsTurn": false
         },
         {
-          "Name": null,
-          "Value": "/ Crest",
+          "Name": "Short",
+          "Value": "short",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "/ Jump",
+          "IsPrefixed": false,
+          "Position": 2,
           "Components": [
             {
               "Name": "Over",
               "Value": "/",
               "IsPrefixed": false,
-              "Position": 0,
+              "Position": 2,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
             },
             {
-              "Name": "Crest",
-              "Value": "Crest",
+              "Name": "Jump",
+              "Value": "Jump",
               "IsPrefixed": false,
-              "Position": 0,
+              "Position": 2,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
@@ -1422,16 +1440,16 @@
           "ContainsTurn": false
         },
         {
-          "Name": "Keep",
-          "Value": "hold",
+          "Name": "Maybe",
+          "Value": "maybe",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": null,
           "Origin": 2,
           "ContainsTurn": false
         }
       ],
-      "Level": "6",
+      "Level": "5",
       "IsSingleCornerOrCrest": true
     },
     {
@@ -1450,7 +1468,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -188,
+      "DistanceBefore": -160,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1490,7 +1508,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -209,
+      "DistanceBefore": -198,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4115,34 +4133,6 @@
         },
         {
           "Name": null,
-          "Value": "! narrows",
-          "IsPrefixed": true,
-          "Position": 0,
-          "Components": [
-            {
-              "Name": "Caution",
-              "Value": "!",
-              "IsPrefixed": true,
-              "Position": 0,
-              "Components": null,
-              "Origin": 2,
-              "ContainsTurn": false
-            },
-            {
-              "Name": "Narrows",
-              "Value": "narrows",
-              "IsPrefixed": true,
-              "Position": 0,
-              "Components": null,
-              "Origin": 2,
-              "ContainsTurn": false
-            }
-          ],
-          "Origin": 0,
-          "ContainsTurn": false
-        },
-        {
-          "Name": null,
           "Value": "R Hp",
           "IsPrefixed": false,
           "Position": 0,
@@ -4180,36 +4170,7 @@
       "Start": 4996,
       "Angle1": 65.0,
       "Angle2": 0.0,
-      "TagList": [
-        {
-          "Name": null,
-          "Value": "! narrows",
-          "IsPrefixed": true,
-          "Position": 0,
-          "Components": [
-            {
-              "Name": "Caution",
-              "Value": "!",
-              "IsPrefixed": true,
-              "Position": 0,
-              "Components": null,
-              "Origin": 2,
-              "ContainsTurn": false
-            },
-            {
-              "Name": "Narrows",
-              "Value": "narrows",
-              "IsPrefixed": true,
-              "Position": 0,
-              "Components": null,
-              "Origin": 2,
-              "ContainsTurn": false
-            }
-          ],
-          "Origin": 2,
-          "ContainsTurn": false
-        }
-      ],
+      "TagList": [],
       "Level": "Hp",
       "IsSingleCornerOrCrest": true
     },
