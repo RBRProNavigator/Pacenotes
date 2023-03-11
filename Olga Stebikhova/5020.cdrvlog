@@ -275,7 +275,7 @@
       "DetectedHint": null,
       "DistanceBefore": -181,
       "CallPointOffset": 0.0,
-      "Text": "",
+      "Text": "Apex Wall",
       "Slope": 0.0,
       "EntryPoint": null,
       "ExitPoint": null,
@@ -311,6 +311,15 @@
           ],
           "Origin": 0,
           "ContainsTurn": true
+        },
+        {
+          "Name": "NoCut",
+          "Value": "dont.cut",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
         }
       ],
       "Level": "6",
@@ -1235,6 +1244,34 @@
           ],
           "Origin": 2,
           "ContainsTurn": true
+        },
+        {
+          "Name": null,
+          "Value": "apex stone",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "apex",
+              "IsPrefixed": false,
+              "Position": 2,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            },
+            {
+              "Name": null,
+              "Value": "stone",
+              "IsPrefixed": false,
+              "Position": 2,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
+          "Origin": 2,
+          "ContainsTurn": false
         }
       ],
       "Level": "2",
@@ -3775,8 +3812,66 @@
     },
     {
       "Prg": 59,
-      "Hint": 1,
+      "Hint": 0,
       "Enabled": true,
+      "SimplifyNotation": false,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "AudioSet": 0,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": true,
+      "LinksControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "DetectedHint": null,
+      "DistanceBefore": -105,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "Slope": 0.0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 33,
+      "Start": 3920,
+      "Angle1": 176.0,
+      "Angle2": 0.0,
+      "TagList": [
+        {
+          "Name": null,
+          "Value": "30",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "P8",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": true
+        },
+        {
+          "Name": null,
+          "Value": "вниз",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        }
+      ],
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
+    },
+    {
+      "Prg": 60,
+      "Hint": 5,
+      "Enabled": false,
       "SimplifyNotation": false,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -3789,60 +3884,32 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -112,
+      "DistanceBefore": -131,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
       "EntryPoint": null,
       "ExitPoint": null,
-      "DetectedLength": 79,
-      "Start": 3922,
-      "Angle1": 176.0,
-      "Angle2": 45.0,
+      "DetectedLength": 48,
+      "Start": 3953,
+      "Angle1": 45.0,
+      "Angle2": 0.0,
       "TagList": [
         {
           "Name": null,
-          "Value": "x P0",
+          "Value": "вниз",
           "IsPrefixed": false,
-          "Position": 0,
-          "Components": [
-            {
-              "Name": "Immediately",
-              "Value": "x",
-              "IsPrefixed": false,
-              "Position": 0,
-              "Components": null,
-              "Origin": 0,
-              "ContainsTurn": false
-            },
-            {
-              "Name": null,
-              "Value": "P0",
-              "IsPrefixed": false,
-              "Position": 0,
-              "Components": null,
-              "Origin": 0,
-              "ContainsTurn": true
-            }
-          ],
-          "Origin": 0,
-          "ContainsTurn": true
-        },
-        {
-          "Name": null,
-          "Value": "> 8",
-          "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": null,
-          "Origin": 0,
+          "Origin": 2,
           "ContainsTurn": false
         }
       ],
-      "Level": "0>8",
+      "Level": "8",
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 60,
+      "Prg": 61,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -3891,7 +3958,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 61,
+      "Prg": 62,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4005,7 +4072,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 62,
+      "Prg": 63,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4035,7 +4102,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 63,
+      "Prg": 64,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4102,7 +4169,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 64,
+      "Prg": 65,
       "Hint": 6,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4142,7 +4209,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 65,
+      "Prg": 66,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4182,7 +4249,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 66,
+      "Prg": 67,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4250,7 +4317,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 67,
+      "Prg": 68,
       "Hint": 7,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4327,7 +4394,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 68,
+      "Prg": 69,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4395,7 +4462,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 69,
+      "Prg": 70,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4435,7 +4502,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 70,
+      "Prg": 71,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4503,7 +4570,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 71,
+      "Prg": 72,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4589,7 +4656,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 72,
+      "Prg": 73,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4648,7 +4715,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 73,
+      "Prg": 74,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4725,7 +4792,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 74,
+      "Prg": 75,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4784,7 +4851,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 75,
+      "Prg": 76,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4824,7 +4891,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 76,
+      "Prg": 77,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4892,7 +4959,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 77,
+      "Prg": 78,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4922,7 +4989,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 78,
+      "Prg": 79,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4980,7 +5047,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 79,
+      "Prg": 80,
       "Hint": 6,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5020,7 +5087,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 80,
+      "Prg": 81,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5060,7 +5127,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 81,
+      "Prg": 82,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5156,7 +5223,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 82,
+      "Prg": 83,
       "Hint": 5,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5186,7 +5253,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 83,
+      "Prg": 84,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5226,7 +5293,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 84,
+      "Prg": 85,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5303,7 +5370,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 85,
+      "Prg": 86,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5343,7 +5410,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 86,
+      "Prg": 87,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5411,7 +5478,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 87,
+      "Prg": 88,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5441,7 +5508,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 88,
+      "Prg": 89,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5499,7 +5566,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 89,
+      "Prg": 90,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5529,7 +5596,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 90,
+      "Prg": 91,
       "Hint": 6,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5566,19 +5633,47 @@
         },
         {
           "Name": null,
-          "Value": "L6",
+          "Value": "L6 dont.cut",
           "IsPrefixed": false,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
+          "Position": 2,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "L6",
+              "IsPrefixed": false,
+              "Position": 0,
+              "Components": null,
+              "Origin": 0,
+              "ContainsTurn": true
+            },
+            {
+              "Name": "NoCut",
+              "Value": "dont.cut",
+              "IsPrefixed": false,
+              "Position": 2,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
+          "Origin": 2,
           "ContainsTurn": true
+        },
+        {
+          "Name": "OffCamber",
+          "Value": "Отриц.",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
         }
       ],
       "Level": "6",
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 91,
+      "Prg": 92,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5646,7 +5741,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 92,
+      "Prg": 93,
       "Hint": 5,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5705,7 +5800,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 93,
+      "Prg": 94,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5760,6 +5855,15 @@
           "ContainsTurn": true
         },
         {
+          "Name": "NoCut",
+          "Value": "dont.cut",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
           "Name": null,
           "Value": "50 straighten",
           "IsPrefixed": false,
@@ -5792,7 +5896,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 94,
+      "Prg": 95,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5851,7 +5955,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 95,
+      "Prg": 96,
       "Hint": 6,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5879,11 +5983,30 @@
       "TagList": [
         {
           "Name": null,
-          "Value": "L6",
+          "Value": "L6 dont.cut",
           "IsPrefixed": false,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
+          "Position": 2,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "L6",
+              "IsPrefixed": false,
+              "Position": 0,
+              "Components": null,
+              "Origin": 0,
+              "ContainsTurn": true
+            },
+            {
+              "Name": "NoCut",
+              "Value": "dont.cut",
+              "IsPrefixed": false,
+              "Position": 2,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
+          "Origin": 2,
           "ContainsTurn": true
         }
       ],
@@ -5891,7 +6014,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 96,
+      "Prg": 97,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5931,7 +6054,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 97,
+      "Prg": 98,
       "Hint": 7,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6036,7 +6159,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 98,
+      "Prg": 99,
       "Hint": 2,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6066,7 +6189,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 99,
+      "Prg": 100,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6125,7 +6248,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 100,
+      "Prg": 101,
       "Hint": 11,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6152,17 +6275,8 @@
       "Angle2": 0.0,
       "TagList": [
         {
-          "Name": "Caution",
-          "Value": "!",
-          "IsPrefixed": true,
-          "Position": 0,
-          "Components": null,
-          "Origin": 2,
-          "ContainsTurn": false
-        },
-        {
-          "Name": "Slowdown",
-          "Value": "slowdn?",
+          "Name": "DoubleCaution",
+          "Value": "!!",
           "IsPrefixed": true,
           "Position": 0,
           "Components": null,
@@ -6239,7 +6353,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 101,
+      "Prg": 102,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6298,7 +6412,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 102,
+      "Prg": 103,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6357,7 +6471,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 103,
+      "Prg": 104,
       "Hint": 6,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6434,7 +6548,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 104,
+      "Prg": 105,
       "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6577,7 +6691,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 105,
+      "Prg": 106,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6636,7 +6750,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 106,
+      "Prg": 107,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6676,7 +6790,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 107,
+      "Prg": 108,
       "Hint": 8,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6721,6 +6835,15 @@
           "ContainsTurn": false
         },
         {
+          "Name": "NoCut",
+          "Value": "dont.cut",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
           "Name": null,
           "Value": "x P5",
           "IsPrefixed": false,
@@ -6747,13 +6870,22 @@
           ],
           "Origin": 0,
           "ContainsTurn": true
+        },
+        {
+          "Name": "NoCut",
+          "Value": "dont.cut",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
         }
       ],
       "Level": "5",
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 108,
+      "Prg": 109,
       "Hint": 7,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6778,12 +6910,22 @@
       "Start": 6993,
       "Angle1": 88.0,
       "Angle2": 0.0,
-      "TagList": [],
+      "TagList": [
+        {
+          "Name": "NoCut",
+          "Value": "dont.cut",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        }
+      ],
       "Level": "5",
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 109,
+      "Prg": 110,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6823,7 +6965,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 110,
+      "Prg": 111,
       "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6872,7 +7014,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 111,
+      "Prg": 112,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6902,7 +7044,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 112,
+      "Prg": 113,
       "Hint": 7,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6955,13 +7097,41 @@
           ],
           "Origin": 2,
           "ContainsTurn": true
+        },
+        {
+          "Name": null,
+          "Value": "apex stone",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": [
+            {
+              "Name": null,
+              "Value": "apex",
+              "IsPrefixed": false,
+              "Position": 2,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            },
+            {
+              "Name": null,
+              "Value": "stone",
+              "IsPrefixed": false,
+              "Position": 2,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
+          "Origin": 2,
+          "ContainsTurn": false
         }
       ],
       "Level": "5",
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 113,
+      "Prg": 114,
       "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7066,7 +7236,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 114,
+      "Prg": 115,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -7106,7 +7276,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 115,
+      "Prg": 116,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7146,7 +7316,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 116,
+      "Prg": 117,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7223,7 +7393,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 117,
+      "Prg": 118,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -7253,7 +7423,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 118,
+      "Prg": 119,
       "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7395,7 +7565,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 119,
+      "Prg": 120,
       "Hint": 6,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -7463,7 +7633,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 120,
+      "Prg": 121,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7531,7 +7701,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 121,
+      "Prg": 122,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7608,7 +7778,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 122,
+      "Prg": 123,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7648,7 +7818,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 123,
+      "Prg": 124,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7725,7 +7895,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 124,
+      "Prg": 125,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7784,7 +7954,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 125,
+      "Prg": 126,
       "Hint": 5,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7833,7 +8003,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 126,
+      "Prg": 127,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -7947,7 +8117,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 127,
+      "Prg": 128,
       "Hint": 11,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -8006,7 +8176,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 128,
+      "Prg": 129,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8074,7 +8244,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 129,
+      "Prg": 130,
       "Hint": 8,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -8104,7 +8274,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 130,
+      "Prg": 131,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8200,7 +8370,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 131,
+      "Prg": 132,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -8230,7 +8400,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 132,
+      "Prg": 133,
       "Hint": 7,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8289,7 +8459,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 133,
+      "Prg": 134,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8394,7 +8564,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 134,
+      "Prg": 135,
       "Hint": 5,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -8434,7 +8604,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 135,
+      "Prg": 136,
       "Hint": 8,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8521,7 +8691,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 136,
+      "Prg": 137,
       "Hint": 7,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -8551,7 +8721,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 137,
+      "Prg": 138,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8591,7 +8761,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 138,
+      "Prg": 139,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8687,7 +8857,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 139,
+      "Prg": 140,
       "Hint": 7,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -8717,7 +8887,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 140,
+      "Prg": 141,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8757,7 +8927,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 141,
+      "Prg": 142,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8834,7 +9004,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 142,
+      "Prg": 143,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8874,7 +9044,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 143,
+      "Prg": 144,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -8933,7 +9103,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 144,
+      "Prg": 145,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9020,7 +9190,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 145,
+      "Prg": 146,
       "Hint": 7,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9050,7 +9220,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 146,
+      "Prg": 147,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9090,7 +9260,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 147,
+      "Prg": 148,
       "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9176,7 +9346,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 148,
+      "Prg": 149,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9216,7 +9386,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 149,
+      "Prg": 150,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9265,7 +9435,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 150,
+      "Prg": 151,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9295,7 +9465,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 151,
+      "Prg": 152,
       "Hint": 14,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9363,7 +9533,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 152,
+      "Prg": 153,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9393,7 +9563,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 153,
+      "Prg": 154,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9442,7 +9612,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 154,
+      "Prg": 155,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9472,7 +9642,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 155,
+      "Prg": 156,
       "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9499,6 +9669,24 @@
       "Angle2": 0.0,
       "TagList": [
         {
+          "Name": "DoubleCaution",
+          "Value": "!!",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
+          "Name": "Slowdown",
+          "Value": "slowdn?",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
           "Name": null,
           "Value": "P0",
           "IsPrefixed": false,
@@ -9506,15 +9694,6 @@
           "Components": null,
           "Origin": 0,
           "ContainsTurn": true
-        },
-        {
-          "Name": "Slowdown",
-          "Value": "slowdn?",
-          "IsPrefixed": false,
-          "Position": 2,
-          "Components": null,
-          "Origin": 2,
-          "ContainsTurn": false
         },
         {
           "Name": null,
@@ -9558,7 +9737,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 156,
+      "Prg": 157,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9588,7 +9767,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 157,
+      "Prg": 158,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9637,7 +9816,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 158,
+      "Prg": 159,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9667,7 +9846,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 159,
+      "Prg": 160,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9725,7 +9904,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 160,
+      "Prg": 161,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9755,7 +9934,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 161,
+      "Prg": 162,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9841,7 +10020,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 162,
+      "Prg": 163,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9881,7 +10060,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 163,
+      "Prg": 164,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -9958,7 +10137,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 164,
+      "Prg": 165,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -9998,7 +10177,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 165,
+      "Prg": 166,
       "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10094,7 +10273,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 166,
+      "Prg": 167,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10153,7 +10332,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 167,
+      "Prg": 168,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10267,7 +10446,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 168,
+      "Prg": 169,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -10307,7 +10486,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 169,
+      "Prg": 170,
       "Hint": 6,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10375,7 +10554,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 170,
+      "Prg": 171,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10443,7 +10622,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 171,
+      "Prg": 172,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10483,7 +10662,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 172,
+      "Prg": 173,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10579,7 +10758,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 173,
+      "Prg": 174,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -10609,7 +10788,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 174,
+      "Prg": 175,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10677,7 +10856,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 175,
+      "Prg": 176,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -10707,7 +10886,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 176,
+      "Prg": 177,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10774,7 +10953,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 177,
+      "Prg": 178,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -10804,7 +10983,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 178,
+      "Prg": 179,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -10834,7 +11013,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 179,
+      "Prg": 180,
       "Hint": 11,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -10958,7 +11137,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 180,
+      "Prg": 181,
       "Hint": 6,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -10988,7 +11167,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 181,
+      "Prg": 182,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11037,7 +11216,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 182,
+      "Prg": 183,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -11067,7 +11246,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 183,
+      "Prg": 184,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11181,7 +11360,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 184,
+      "Prg": 185,
       "Hint": 5,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -11221,7 +11400,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 185,
+      "Prg": 186,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11261,7 +11440,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 186,
+      "Prg": 187,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11319,7 +11498,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 187,
+      "Prg": 188,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -11349,7 +11528,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 188,
+      "Prg": 189,
       "Hint": 6,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -11379,7 +11558,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 189,
+      "Prg": 190,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11419,7 +11598,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 190,
+      "Prg": 191,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11478,7 +11657,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 191,
+      "Prg": 192,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11527,7 +11706,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 192,
+      "Prg": 193,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -11557,7 +11736,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 193,
+      "Prg": 194,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11661,7 +11840,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 194,
+      "Prg": 195,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -11747,7 +11926,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 195,
+      "Prg": 196,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11787,7 +11966,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 196,
+      "Prg": 197,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11855,7 +12034,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 197,
+      "Prg": 198,
       "Hint": 1,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -11885,7 +12064,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 198,
+      "Prg": 199,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -11953,7 +12132,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 199,
+      "Prg": 200,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -12012,7 +12191,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 200,
+      "Prg": 201,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12080,7 +12259,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 201,
+      "Prg": 202,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12120,7 +12299,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 202,
+      "Prg": 203,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12197,7 +12376,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 203,
+      "Prg": 204,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -12227,7 +12406,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 204,
+      "Prg": 205,
       "Hint": 8,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12286,7 +12465,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 205,
+      "Prg": 206,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12326,7 +12505,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 206,
+      "Prg": 207,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12431,7 +12610,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 207,
+      "Prg": 208,
       "Hint": 7,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -12471,7 +12650,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 208,
+      "Prg": 209,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12511,7 +12690,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 209,
+      "Prg": 210,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12560,7 +12739,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 210,
+      "Prg": 211,
       "Hint": 7,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12628,7 +12807,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 211,
+      "Prg": 212,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12677,7 +12856,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 212,
+      "Prg": 213,
       "Hint": 8,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -12707,7 +12886,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 213,
+      "Prg": 214,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12747,7 +12926,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 214,
+      "Prg": 215,
       "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12796,7 +12975,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 215,
+      "Prg": 216,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -12826,7 +13005,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 216,
+      "Prg": 217,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12884,7 +13063,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 217,
+      "Prg": 218,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -12924,7 +13103,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 218,
+      "Prg": 219,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -13019,7 +13198,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 219,
+      "Prg": 220,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -13049,7 +13228,7 @@
       "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 220,
+      "Prg": 221,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -13108,7 +13287,7 @@
       "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 221,
+      "Prg": 222,
       "Hint": 15,
       "Enabled": true,
       "SimplifyNotation": false,
