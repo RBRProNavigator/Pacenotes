@@ -12,16 +12,16 @@
   "InvertStayKeep": false,
   "TurnDetail": 1,
   "Track": "Game\\RX_CONTENT\\Tracks\\Makkola\\pacenotes.ini",
-  "DateRecorded": "2022-07-21T17:43:30.6499535+03:00",
+  "DateRecorded": "2022-07-21T16:43:30.6499535+02:00",
   "InitialDistance": 0.0,
   "LookAhead": 3,
-  "StageType": 3,
+  "StageType": 0,
   "LookAheadDistanceMax": 50,
-  "MinDistanceToCall": 21,
+  "MinDistanceToCall": 16,
   "OpenTightensStyle": 0,
   "ImmediatelyCallStyle": 0,
   "DistancesRounding": 0,
-  "TargetAdvance": 3.3,
+  "TargetAdvance": 4.0,
   "CallPointOffset": 0,
   "NumberOfLaps": 1,
   "DelayBeforeCountdown": 6600,
@@ -71,12 +71,12 @@
       "ExitPoint": null,
       "DetectedLength": 112,
       "Start": 0,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
           "Name": null,
-          "Value": "120 twisty",
+          "Value": "120 straighten",
           "IsPrefixed": false,
           "Position": 0,
           "Components": [
@@ -91,7 +91,7 @@
             },
             {
               "Name": "Twisty",
-              "Value": "twisty",
+              "Value": "straighten",
               "IsPrefixed": false,
               "Position": 0,
               "Components": null,
@@ -103,11 +103,12 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "120"
+      "Level": "120",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 2,
-      "Hint": 4,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -121,7 +122,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -92,
+      "DistanceBefore": -107,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -129,7 +130,7 @@
       "ExitPoint": null,
       "DetectedLength": 99,
       "Start": 112,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -151,7 +152,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 3,
@@ -169,7 +171,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -140,
+      "DistanceBefore": -167,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -177,10 +179,11 @@
       "ExitPoint": null,
       "DetectedLength": 87,
       "Start": 211,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "100"
+      "Level": "100",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 4,
@@ -198,7 +201,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -195,
+      "DistanceBefore": -212,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -206,7 +209,7 @@
       "ExitPoint": null,
       "DetectedLength": 59,
       "Start": 298,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -302,7 +305,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 5,
@@ -320,7 +324,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -177,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -328,7 +332,7 @@
       "ExitPoint": null,
       "DetectedLength": 93,
       "Start": 357,
-      "Angle1": 140.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -397,7 +401,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 6,
@@ -415,7 +420,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -142,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -423,7 +428,7 @@
       "ExitPoint": null,
       "DetectedLength": 56,
       "Start": 451,
-      "Angle1": 150.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -455,7 +460,8 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 7,
@@ -473,7 +479,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -195,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -481,8 +487,8 @@
       "ExitPoint": null,
       "DetectedLength": 88,
       "Start": 516,
-      "Angle1": 120.0,
-      "Angle2": 85.0,
+      "Angle1": 130.0,
+      "Angle2": 100.0,
       "TagList": [
         {
           "Name": null,
@@ -531,7 +537,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3>5"
+      "Level": "3>5",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 8,
@@ -549,7 +556,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -44,
+      "DistanceBefore": -93,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -557,7 +564,7 @@
       "ExitPoint": null,
       "DetectedLength": 28,
       "Start": 604,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -570,11 +577,12 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 9,
-      "Hint": 3,
+      "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -588,7 +596,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -86,
+      "DistanceBefore": -117,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -596,7 +604,7 @@
       "ExitPoint": null,
       "DetectedLength": 74,
       "Start": 632,
-      "Angle1": 174.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -655,7 +663,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 10,
@@ -673,7 +682,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -147,
+      "DistanceBefore": -155,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -681,7 +690,7 @@
       "ExitPoint": null,
       "DetectedLength": 56,
       "Start": 707,
-      "Angle1": 157.0,
+      "Angle1": 162.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -694,7 +703,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "1"
+      "Level": "1",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 11,
@@ -712,7 +722,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -142,
+      "DistanceBefore": -177,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -720,14 +730,15 @@
       "ExitPoint": null,
       "DetectedLength": 109,
       "Start": 763,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "100"
+      "Level": "100",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 12,
-      "Hint": 4,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -741,7 +752,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -188,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -749,7 +760,7 @@
       "ExitPoint": null,
       "DetectedLength": 75,
       "Start": 872,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -771,7 +782,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 13,
@@ -789,7 +801,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -168,
+      "DistanceBefore": -201,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -797,10 +809,11 @@
       "ExitPoint": null,
       "DetectedLength": 29,
       "Start": 947,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 14,
@@ -818,7 +831,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -188,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -826,7 +839,7 @@
       "ExitPoint": null,
       "DetectedLength": 67,
       "Start": 976,
-      "Angle1": 156.0,
+      "Angle1": 162.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -848,7 +861,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "1"
+      "Level": "1",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 15,
@@ -866,7 +880,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -155,
+      "DistanceBefore": -181,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -874,10 +888,11 @@
       "ExitPoint": null,
       "DetectedLength": 38,
       "Start": 1043,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "40"
+      "Level": "40",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 16,
@@ -895,7 +910,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -168,
+      "DistanceBefore": -207,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -903,7 +918,7 @@
       "ExitPoint": null,
       "DetectedLength": 48,
       "Start": 1081,
-      "Angle1": 160.0,
+      "Angle1": 162.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -981,7 +996,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "1"
+      "Level": "1",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 17,
@@ -999,7 +1015,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -214,
+      "DistanceBefore": -192,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1007,7 +1023,7 @@
       "ExitPoint": null,
       "DetectedLength": 64,
       "Start": 1129,
-      "Angle1": 156.0,
+      "Angle1": 162.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -1048,7 +1064,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "1"
+      "Level": "1",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 18,
@@ -1066,7 +1083,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -167,
+      "DistanceBefore": -192,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1074,7 +1091,7 @@
       "ExitPoint": null,
       "DetectedLength": 58,
       "Start": 1193,
-      "Angle1": 143.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -1143,7 +1160,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 19,
@@ -1161,7 +1179,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -171,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1169,7 +1187,7 @@
       "ExitPoint": null,
       "DetectedLength": 183,
       "Start": 1251,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -1201,7 +1219,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "170"
+      "Level": "170",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 20,
@@ -1219,7 +1238,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -191,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1227,24 +1246,34 @@
       "ExitPoint": null,
       "DetectedLength": 71,
       "Start": 1434,
-      "Angle1": 113.0,
+      "Angle1": 115.0,
       "Angle2": 0.0,
       "TagList": [
         {
-          "Name": "At",
-          "Value": "@",
+          "Name": null,
+          "Value": "@ red",
           "IsPrefixed": true,
           "Position": 0,
-          "Components": null,
-          "Origin": 2,
-          "ContainsTurn": false
-        },
-        {
-          "Name": "Red",
-          "Value": "red",
-          "IsPrefixed": true,
-          "Position": 0,
-          "Components": null,
+          "Components": [
+            {
+              "Name": "At",
+              "Value": "@",
+              "IsPrefixed": true,
+              "Position": 0,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            },
+            {
+              "Name": "Red",
+              "Value": "red",
+              "IsPrefixed": true,
+              "Position": 0,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
           "Origin": 2,
           "ContainsTurn": false
         },
@@ -1258,11 +1287,12 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "4"
+      "Level": "4",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 21,
-      "Hint": 4,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -1276,7 +1306,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -117,
+      "DistanceBefore": -119,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1284,8 +1314,8 @@
       "ExitPoint": null,
       "DetectedLength": 137,
       "Start": 1517,
-      "Angle1": 170.0,
-      "Angle2": 170.0,
+      "Angle1": 175.0,
+      "Angle2": 175.0,
       "TagList": [
         {
           "Name": null,
@@ -1335,7 +1365,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0 2x"
+      "Level": "0 2x",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 22,
@@ -1353,7 +1384,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -139,
+      "DistanceBefore": -166,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1383,7 +1414,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": ""
+      "Level": "",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 23,
@@ -1401,7 +1433,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -146,
+      "DistanceBefore": -168,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1409,10 +1441,11 @@
       "ExitPoint": null,
       "DetectedLength": 85,
       "Start": 1665,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "100"
+      "Level": "100",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 24,
@@ -1430,7 +1463,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -230,
+      "DistanceBefore": -207,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1438,7 +1471,7 @@
       "ExitPoint": null,
       "DetectedLength": 82,
       "Start": 1750,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -1516,7 +1549,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 25,
@@ -1534,7 +1568,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -107,
+      "DistanceBefore": -139,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1542,7 +1576,7 @@
       "ExitPoint": null,
       "DetectedLength": 83,
       "Start": 1832,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -1555,7 +1589,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "70"
+      "Level": "70",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 26,
@@ -1573,7 +1608,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -135,
+      "DistanceBefore": -167,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 20.0,
@@ -1604,7 +1639,7 @@
         },
         {
           "Name": "Twisty",
-          "Value": "twisty",
+          "Value": "straighten",
           "IsPrefixed": false,
           "Position": 0,
           "Components": null,
@@ -1612,7 +1647,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": ""
+      "Level": "",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 27,
@@ -1630,7 +1666,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -193,
+      "DistanceBefore": -189,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1638,12 +1674,12 @@
       "ExitPoint": null,
       "DetectedLength": 210,
       "Start": 1920,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
           "Name": "Twisty",
-          "Value": "twisty",
+          "Value": "straighten",
           "IsPrefixed": false,
           "Position": 0,
           "Components": null,
@@ -1651,7 +1687,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "220"
+      "Level": "220",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 28,
@@ -1669,7 +1706,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -183,
+      "DistanceBefore": -206,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 20.0,
@@ -1727,7 +1764,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": ""
+      "Level": "",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 29,
@@ -1745,7 +1783,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -161,
+      "DistanceBefore": -179,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1753,10 +1791,11 @@
       "ExitPoint": null,
       "DetectedLength": 48,
       "Start": 2135,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "50"
+      "Level": "50",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 30,
@@ -1774,7 +1813,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -188,
+      "DistanceBefore": -202,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1814,7 +1853,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": ""
+      "Level": "",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 31,
@@ -1832,7 +1872,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -146,
+      "DistanceBefore": -168,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1840,7 +1880,7 @@
       "ExitPoint": null,
       "DetectedLength": 99,
       "Start": 2184,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -1853,7 +1893,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "100"
+      "Level": "100",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 32,
@@ -1871,7 +1912,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -185,
+      "DistanceBefore": -208,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1901,7 +1942,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 33,
@@ -1919,7 +1961,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -175,
+      "DistanceBefore": -202,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -1927,10 +1969,11 @@
       "ExitPoint": null,
       "DetectedLength": 26,
       "Start": 2348,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 34,
@@ -1948,7 +1991,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -194,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -1956,7 +1999,7 @@
       "ExitPoint": null,
       "DetectedLength": 56,
       "Start": 2374,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -1970,7 +2013,7 @@
         },
         {
           "Name": null,
-          "Value": "100 twisty",
+          "Value": "100 straighten",
           "IsPrefixed": false,
           "Position": 0,
           "Components": [
@@ -1985,7 +2028,7 @@
             },
             {
               "Name": "Twisty",
-              "Value": "twisty",
+              "Value": "straighten",
               "IsPrefixed": false,
               "Position": 0,
               "Components": null,
@@ -1997,7 +2040,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 35,
@@ -2015,7 +2059,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -153,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2023,12 +2067,12 @@
       "ExitPoint": null,
       "DetectedLength": 106,
       "Start": 2430,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
           "Name": null,
-          "Value": "100 twisty",
+          "Value": "100 straighten",
           "IsPrefixed": false,
           "Position": 0,
           "Components": [
@@ -2043,7 +2087,7 @@
             },
             {
               "Name": "Twisty",
-              "Value": "twisty",
+              "Value": "straighten",
               "IsPrefixed": false,
               "Position": 0,
               "Components": null,
@@ -2055,7 +2099,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "100"
+      "Level": "100",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 36,
@@ -2073,7 +2118,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -195,
+      "DistanceBefore": -200,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -2081,8 +2126,8 @@
       "ExitPoint": null,
       "DetectedLength": 101,
       "Start": 2536,
-      "Angle1": 134.0,
-      "Angle2": 147.0,
+      "Angle1": 130.0,
+      "Angle2": 145.0,
       "TagList": [
         {
           "Name": null,
@@ -2113,7 +2158,8 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "3<2"
+      "Level": "3<2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 37,
@@ -2131,7 +2177,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -122,
+      "DistanceBefore": -134,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2139,7 +2185,7 @@
       "ExitPoint": null,
       "DetectedLength": 53,
       "Start": 2637,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2152,7 +2198,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "50"
+      "Level": "50",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 38,
@@ -2170,7 +2217,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -148,
+      "DistanceBefore": -163,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -2178,7 +2225,7 @@
       "ExitPoint": null,
       "DetectedLength": 69,
       "Start": 2690,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2200,7 +2247,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 39,
@@ -2218,7 +2266,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -136,
+      "DistanceBefore": -162,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2226,14 +2274,15 @@
       "ExitPoint": null,
       "DetectedLength": 21,
       "Start": 2759,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "20"
+      "Level": "20",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 40,
-      "Hint": 4,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -2247,7 +2296,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -148,
+      "DistanceBefore": -177,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -2255,7 +2304,7 @@
       "ExitPoint": null,
       "DetectedLength": 42,
       "Start": 2780,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2277,7 +2326,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 41,
@@ -2295,7 +2345,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -156,
+      "DistanceBefore": -184,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2303,10 +2353,11 @@
       "ExitPoint": null,
       "DetectedLength": 53,
       "Start": 2822,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "50"
+      "Level": "50",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 42,
@@ -2324,7 +2375,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -185,
+      "DistanceBefore": -212,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -2332,7 +2383,7 @@
       "ExitPoint": null,
       "DetectedLength": 62,
       "Start": 2875,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2354,7 +2405,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 43,
@@ -2372,7 +2424,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -129,
+      "DistanceBefore": -156,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2380,10 +2432,11 @@
       "ExitPoint": null,
       "DetectedLength": 28,
       "Start": 2937,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 44,
@@ -2401,7 +2454,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -177,
+      "DistanceBefore": -179,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2409,8 +2462,8 @@
       "ExitPoint": null,
       "DetectedLength": 86,
       "Start": 2965,
-      "Angle1": 156.0,
-      "Angle2": 125.0,
+      "Angle1": 162.0,
+      "Angle2": 130.0,
       "TagList": [
         {
           "Name": null,
@@ -2441,7 +2494,8 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "1>3"
+      "Level": "1>3",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 45,
@@ -2459,7 +2513,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -124,
+      "DistanceBefore": -141,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2467,7 +2521,7 @@
       "ExitPoint": null,
       "DetectedLength": 39,
       "Start": 3051,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2481,7 +2535,7 @@
         },
         {
           "Name": "Twisty",
-          "Value": "twisty",
+          "Value": "straighten",
           "IsPrefixed": false,
           "Position": 0,
           "Components": null,
@@ -2489,7 +2543,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "40"
+      "Level": "40",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 46,
@@ -2507,7 +2562,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -154,
+      "DistanceBefore": -160,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -2515,8 +2570,8 @@
       "ExitPoint": null,
       "DetectedLength": 107,
       "Start": 3090,
-      "Angle1": 112.0,
-      "Angle2": 165.0,
+      "Angle1": 115.0,
+      "Angle2": 162.0,
       "TagList": [
         {
           "Name": null,
@@ -2537,7 +2592,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "4<1"
+      "Level": "4<1",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 47,
@@ -2555,7 +2611,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -86,
+      "DistanceBefore": -112,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2563,7 +2619,7 @@
       "ExitPoint": null,
       "DetectedLength": 44,
       "Start": 3197,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2576,7 +2632,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "40"
+      "Level": "40",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 48,
@@ -2594,7 +2651,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -137,
+      "DistanceBefore": -142,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -2602,7 +2659,7 @@
       "ExitPoint": null,
       "DetectedLength": 71,
       "Start": 3241,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 130.0,
       "TagList": [
         {
@@ -2624,7 +2681,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0>3"
+      "Level": "0>3",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 49,
@@ -2642,7 +2700,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -132,
+      "DistanceBefore": -141,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2650,12 +2708,12 @@
       "ExitPoint": null,
       "DetectedLength": 64,
       "Start": 3312,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
           "Name": null,
-          "Value": "70 twisty",
+          "Value": "70 straighten",
           "IsPrefixed": false,
           "Position": 0,
           "Components": [
@@ -2670,7 +2728,7 @@
             },
             {
               "Name": "Twisty",
-              "Value": "twisty",
+              "Value": "straighten",
               "IsPrefixed": false,
               "Position": 0,
               "Components": null,
@@ -2682,7 +2740,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "70"
+      "Level": "70",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 50,
@@ -2700,7 +2759,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -149,
+      "DistanceBefore": -164,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2708,7 +2767,7 @@
       "ExitPoint": null,
       "DetectedLength": 58,
       "Start": 3376,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2721,7 +2780,8 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 51,
@@ -2739,7 +2799,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -103,
+      "DistanceBefore": -133,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2747,7 +2807,7 @@
       "ExitPoint": null,
       "DetectedLength": 33,
       "Start": 3434,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2760,7 +2820,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 52,
@@ -2778,7 +2839,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -156,
+      "DistanceBefore": -158,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -2786,8 +2847,8 @@
       "ExitPoint": null,
       "DetectedLength": 96,
       "Start": 3467,
-      "Angle1": 114.0,
-      "Angle2": 150.0,
+      "Angle1": 115.0,
+      "Angle2": 145.0,
       "TagList": [
         {
           "Name": null,
@@ -2818,7 +2879,8 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "4<2"
+      "Level": "4<2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 53,
@@ -2836,7 +2898,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -89,
+      "DistanceBefore": -112,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2844,7 +2906,7 @@
       "ExitPoint": null,
       "DetectedLength": 38,
       "Start": 3563,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2857,7 +2919,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "40"
+      "Level": "40",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 54,
@@ -2875,7 +2938,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -123,
+      "DistanceBefore": -140,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -2883,7 +2946,7 @@
       "ExitPoint": null,
       "DetectedLength": 69,
       "Start": 3601,
-      "Angle1": 102.0,
+      "Angle1": 115.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2924,7 +2987,8 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "4"
+      "Level": "4",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 55,
@@ -2942,7 +3006,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -75,
+      "DistanceBefore": -119,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2950,10 +3014,11 @@
       "ExitPoint": null,
       "DetectedLength": 49,
       "Start": 3670,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 56,
@@ -2971,7 +3036,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -105,
+      "DistanceBefore": -134,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2979,7 +3044,7 @@
       "ExitPoint": null,
       "DetectedLength": 39,
       "Start": 3719,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2992,7 +3057,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "40"
+      "Level": "40",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 57,
@@ -3010,7 +3076,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -133,
+      "DistanceBefore": -157,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3018,7 +3084,7 @@
       "ExitPoint": null,
       "DetectedLength": 31,
       "Start": 3758,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3049,7 +3115,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 58,
@@ -3067,7 +3134,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -113,
+      "DistanceBefore": -141,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 10.0,
@@ -3075,10 +3142,11 @@
       "ExitPoint": null,
       "DetectedLength": 8,
       "Start": 3789,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": ""
+      "Level": "",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 59,
@@ -3096,7 +3164,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -152,
+      "DistanceBefore": -150,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3104,8 +3172,8 @@
       "ExitPoint": null,
       "DetectedLength": 83,
       "Start": 3796,
-      "Angle1": 124.0,
-      "Angle2": 144.0,
+      "Angle1": 130.0,
+      "Angle2": 145.0,
       "TagList": [
         {
           "Name": null,
@@ -3145,7 +3213,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3<2"
+      "Level": "3<2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 60,
@@ -3163,7 +3232,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -106,
+      "DistanceBefore": -134,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3171,7 +3240,7 @@
       "ExitPoint": null,
       "DetectedLength": 57,
       "Start": 3879,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3184,7 +3253,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "50"
+      "Level": "50",
+      "IsSingleCornerOrCrest": false
     },
     {
       "Prg": 61,
@@ -3202,7 +3272,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -137,
+      "DistanceBefore": -166,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -3210,7 +3280,7 @@
       "ExitPoint": null,
       "DetectedLength": 64,
       "Start": 3936,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3224,29 +3294,19 @@
         },
         {
           "Name": null,
-          "Value": "+ L3",
+          "Value": "20",
           "IsPrefixed": false,
           "Position": 0,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "+",
-              "IsPrefixed": false,
-              "Position": 0,
-              "Components": null,
-              "Origin": 0,
-              "ContainsTurn": false
-            },
-            {
-              "Name": null,
-              "Value": "L3",
-              "IsPrefixed": false,
-              "Position": 0,
-              "Components": null,
-              "Origin": 0,
-              "ContainsTurn": true
-            }
-          ],
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "L3",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
           "Origin": 0,
           "ContainsTurn": true
         },
@@ -3260,10 +3320,41 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
       "Prg": 62,
+      "Hint": 0,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "AudioSet": 0,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": true,
+      "LinksControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "DetectedHint": null,
+      "DistanceBefore": -162,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "Slope": 0.0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 18,
+      "Start": 4000,
+      "Angle1": 176.0,
+      "Angle2": 0.0,
+      "TagList": [],
+      "Level": "20",
+      "IsSingleCornerOrCrest": false
+    },
+    {
+      "Prg": 63,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -3278,7 +3369,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -177,
+      "DistanceBefore": -176,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3286,7 +3377,7 @@
       "ExitPoint": null,
       "DetectedLength": 60,
       "Start": 4018,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3299,10 +3390,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 63,
+      "Prg": 64,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -3325,8 +3417,8 @@
       "ExitPoint": null,
       "DetectedLength": 125,
       "Start": 4078,
-      "Angle1": 124.0,
-      "Angle2": 120.0,
+      "Angle1": 130.0,
+      "Angle2": 130.0,
       "TagList": [
         {
           "Name": null,
@@ -3404,10 +3496,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3 2x"
+      "Level": "3 2x",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 64,
+      "Prg": 65,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -3422,7 +3515,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -96,
+      "DistanceBefore": -133,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3430,7 +3523,7 @@
       "ExitPoint": null,
       "DetectedLength": 28,
       "Start": 4203,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3443,10 +3536,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 65,
+      "Prg": 66,
       "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -3461,7 +3555,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -124,
+      "DistanceBefore": -157,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3469,7 +3563,7 @@
       "ExitPoint": null,
       "DetectedLength": 39,
       "Start": 4231,
-      "Angle1": 177.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3510,10 +3604,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 66,
+      "Prg": 67,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -3528,7 +3623,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -146,
+      "DistanceBefore": -177,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -3536,13 +3631,14 @@
       "ExitPoint": null,
       "DetectedLength": 47,
       "Start": 4270,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 67,
+      "Prg": 68,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -3557,7 +3653,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -134,
+      "DistanceBefore": -156,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3565,7 +3661,7 @@
       "ExitPoint": null,
       "DetectedLength": 59,
       "Start": 4317,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3578,11 +3674,12 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "50"
+      "Level": "50",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 68,
-      "Hint": 4,
+      "Prg": 69,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -3596,7 +3693,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -158,
+      "DistanceBefore": -188,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3604,7 +3701,7 @@
       "ExitPoint": null,
       "DetectedLength": 49,
       "Start": 4376,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3618,19 +3715,19 @@
         },
         {
           "Name": null,
-          "Value": "+ P0",
+          "Value": "20",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "P0 > 1",
           "IsPrefixed": false,
           "Position": 0,
           "Components": [
-            {
-              "Name": "Into",
-              "Value": "+",
-              "IsPrefixed": false,
-              "Position": 0,
-              "Components": null,
-              "Origin": 0,
-              "ContainsTurn": false
-            },
             {
               "Name": null,
               "Value": "P0",
@@ -3639,26 +3736,57 @@
               "Components": null,
               "Origin": 0,
               "ContainsTurn": true
+            },
+            {
+              "Name": null,
+              "Value": "> 1",
+              "IsPrefixed": false,
+              "Position": 0,
+              "Components": null,
+              "Origin": 0,
+              "ContainsTurn": false
             }
           ],
           "Origin": 0,
           "ContainsTurn": true
-        },
-        {
-          "Name": null,
-          "Value": "> 1",
-          "IsPrefixed": false,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 69,
-      "Hint": 3,
+      "Prg": 70,
+      "Hint": 0,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "AudioSet": 0,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": true,
+      "LinksControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "DetectedHint": null,
+      "DistanceBefore": -210,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "Slope": 0.0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 18,
+      "Start": 4425,
+      "Angle1": 176.0,
+      "Angle2": 0.0,
+      "TagList": [],
+      "Level": "20",
+      "IsSingleCornerOrCrest": false
+    },
+    {
+      "Prg": 71,
+      "Hint": 1,
       "Enabled": false,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -3672,7 +3800,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -227,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -3680,14 +3808,15 @@
       "ExitPoint": null,
       "DetectedLength": 122,
       "Start": 4443,
-      "Angle1": 170.0,
-      "Angle2": 160.0,
+      "Angle1": 175.0,
+      "Angle2": 162.0,
       "TagList": [],
-      "Level": "0>1"
+      "Level": "0>1",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 70,
-      "Hint": 4,
+      "Prg": 72,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -3701,7 +3830,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -171,
+      "DistanceBefore": -192,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3709,7 +3838,7 @@
       "ExitPoint": null,
       "DetectedLength": 72,
       "Start": 4565,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3750,10 +3879,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 71,
+      "Prg": 73,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -3768,7 +3898,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -175,
+      "DistanceBefore": -210,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3776,14 +3906,15 @@
       "ExitPoint": null,
       "DetectedLength": 74,
       "Start": 4637,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "70"
+      "Level": "70",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 72,
-      "Hint": 3,
+      "Prg": 74,
+      "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -3797,7 +3928,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -192,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3805,7 +3936,7 @@
       "ExitPoint": null,
       "DetectedLength": 66,
       "Start": 4711,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -3827,10 +3958,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 73,
+      "Prg": 75,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -3845,7 +3977,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -163,
+      "DistanceBefore": -196,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3853,14 +3985,15 @@
       "ExitPoint": null,
       "DetectedLength": 90,
       "Start": 4777,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "100"
+      "Level": "100",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 74,
-      "Hint": 4,
+      "Prg": 76,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -3874,7 +4007,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -245,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -3882,8 +4015,8 @@
       "ExitPoint": null,
       "DetectedLength": 107,
       "Start": 4867,
-      "Angle1": 170.0,
-      "Angle2": 146.0,
+      "Angle1": 175.0,
+      "Angle2": 145.0,
       "TagList": [
         {
           "Name": null,
@@ -3923,11 +4056,12 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0>2"
+      "Level": "0>2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 75,
-      "Hint": 3,
+      "Prg": 77,
+      "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -3941,7 +4075,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -153,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -3949,7 +4083,7 @@
       "ExitPoint": null,
       "DetectedLength": 65,
       "Start": 4974,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4008,10 +4142,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 76,
+      "Prg": 78,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4026,7 +4161,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -209,
+      "DistanceBefore": -189,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4034,7 +4169,7 @@
       "ExitPoint": null,
       "DetectedLength": 55,
       "Start": 5046,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4047,10 +4182,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 77,
+      "Prg": 79,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4065,7 +4201,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -120,
+      "DistanceBefore": -141,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4073,7 +4209,7 @@
       "ExitPoint": null,
       "DetectedLength": 50,
       "Start": 5101,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4105,11 +4241,12 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 78,
-      "Hint": 3,
+      "Prg": 80,
+      "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -4119,46 +4256,36 @@
       "ForceCombos": false,
       "AttributesControl": true,
       "LinksControl": false,
-      "IsUser": true,
+      "IsUser": false,
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -129,
+      "DistanceBefore": -139,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
       "EntryPoint": null,
       "ExitPoint": null,
-      "DetectedLength": 50,
-      "Start": 5171,
-      "Angle1": 156.0,
+      "DetectedLength": 20,
+      "Start": 5151,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
           "Name": null,
-          "Value": "+ P1",
+          "Value": "20",
           "IsPrefixed": false,
           "Position": 0,
-          "Components": [
-            {
-              "Name": "Into",
-              "Value": "+",
-              "IsPrefixed": false,
-              "Position": 0,
-              "Components": null,
-              "Origin": 0,
-              "ContainsTurn": false
-            },
-            {
-              "Name": null,
-              "Value": "P1",
-              "IsPrefixed": false,
-              "Position": 0,
-              "Components": null,
-              "Origin": 0,
-              "ContainsTurn": true
-            }
-          ],
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "P1",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
           "Origin": 0,
           "ContainsTurn": true
         },
@@ -4172,10 +4299,41 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "1"
+      "Level": "20",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 79,
+      "Prg": 81,
+      "Hint": 3,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "AudioSet": 0,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": true,
+      "LinksControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "DetectedHint": null,
+      "DistanceBefore": -153,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "Slope": 0.0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 50,
+      "Start": 5171,
+      "Angle1": 162.0,
+      "Angle2": 0.0,
+      "TagList": [],
+      "Level": "1",
+      "IsSingleCornerOrCrest": true
+    },
+    {
+      "Prg": 82,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4190,7 +4348,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -130,
+      "DistanceBefore": -174,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4198,14 +4356,15 @@
       "ExitPoint": null,
       "DetectedLength": 66,
       "Start": 5221,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "70"
+      "Level": "70",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 80,
-      "Hint": 3,
+      "Prg": 83,
+      "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -4219,7 +4378,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -162,
+      "DistanceBefore": -207,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -4227,7 +4386,7 @@
       "ExitPoint": null,
       "DetectedLength": 35,
       "Start": 5287,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4249,10 +4408,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 81,
+      "Prg": 84,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4267,7 +4427,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -173,
+      "DistanceBefore": -201,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4275,14 +4435,15 @@
       "ExitPoint": null,
       "DetectedLength": 45,
       "Start": 5322,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "50"
+      "Level": "50",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 82,
-      "Hint": 4,
+      "Prg": 85,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -4296,7 +4457,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -193,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -4304,7 +4465,7 @@
       "ExitPoint": null,
       "DetectedLength": 76,
       "Start": 5367,
-      "Angle1": 174.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4326,10 +4487,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 83,
+      "Prg": 86,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4344,7 +4506,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -178,
+      "DistanceBefore": -201,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4352,13 +4514,14 @@
       "ExitPoint": null,
       "DetectedLength": 46,
       "Start": 5443,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "50"
+      "Level": "50",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 84,
+      "Prg": 87,
       "Hint": 14,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4373,7 +4536,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -183,
+      "DistanceBefore": -206,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4403,10 +4566,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": ""
+      "Level": "",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 85,
+      "Prg": 88,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4421,7 +4585,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -157,
+      "DistanceBefore": -180,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4429,13 +4593,14 @@
       "ExitPoint": null,
       "DetectedLength": 82,
       "Start": 5495,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "70"
+      "Level": "70",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 86,
+      "Prg": 89,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4450,7 +4615,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -186,
+      "DistanceBefore": -201,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4458,7 +4623,7 @@
       "ExitPoint": null,
       "DetectedLength": 74,
       "Start": 5577,
-      "Angle1": 129.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4471,10 +4636,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 87,
+      "Prg": 90,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4489,7 +4655,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -114,
+      "DistanceBefore": -134,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4497,7 +4663,7 @@
       "ExitPoint": null,
       "DetectedLength": 42,
       "Start": 5651,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4510,10 +4676,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "40"
+      "Level": "40",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 88,
+      "Prg": 91,
       "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4536,8 +4703,8 @@
       "ExitPoint": null,
       "DetectedLength": 93,
       "Start": 5693,
-      "Angle1": 175.0,
-      "Angle2": 119.0,
+      "Angle1": 176.0,
+      "Angle2": 130.0,
       "TagList": [
         {
           "Name": null,
@@ -4558,10 +4725,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0>3"
+      "Level": "0>3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 89,
+      "Prg": 92,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4576,7 +4744,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -95,
+      "DistanceBefore": -133,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4584,7 +4752,7 @@
       "ExitPoint": null,
       "DetectedLength": 30,
       "Start": 5786,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4615,10 +4783,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 90,
+      "Prg": 93,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4633,7 +4802,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -146,
+      "DistanceBefore": -157,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -4641,7 +4810,7 @@
       "ExitPoint": null,
       "DetectedLength": 79,
       "Start": 5816,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4654,10 +4823,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 91,
+      "Prg": 94,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4672,7 +4842,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -133,
+      "DistanceBefore": -156,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4680,7 +4850,7 @@
       "ExitPoint": null,
       "DetectedLength": 43,
       "Start": 5895,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4693,11 +4863,12 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "40"
+      "Level": "40",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 92,
-      "Hint": 4,
+      "Prg": 95,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -4711,7 +4882,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -154,
+      "DistanceBefore": -183,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4719,7 +4890,7 @@
       "ExitPoint": null,
       "DetectedLength": 60,
       "Start": 5938,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4778,10 +4949,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 93,
+      "Prg": 96,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4796,7 +4968,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -224,
+      "DistanceBefore": -210,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4804,8 +4976,8 @@
       "ExitPoint": null,
       "DetectedLength": 106,
       "Start": 5998,
-      "Angle1": 141.0,
-      "Angle2": 108.0,
+      "Angle1": 145.0,
+      "Angle2": 115.0,
       "TagList": [
         {
           "Name": "Short",
@@ -4817,10 +4989,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2>4"
+      "Level": "2>4",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 94,
+      "Prg": 97,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4835,7 +5008,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -86,
+      "DistanceBefore": -119,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -4843,7 +5016,7 @@
       "ExitPoint": null,
       "DetectedLength": 39,
       "Start": 6104,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4875,10 +5048,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 95,
+      "Prg": 98,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -4893,7 +5067,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -135,
+      "DistanceBefore": -140,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -4901,7 +5075,7 @@
       "ExitPoint": null,
       "DetectedLength": 53,
       "Start": 6143,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -4979,10 +5153,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 96,
+      "Prg": 99,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -4997,7 +5172,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -171,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5005,7 +5180,7 @@
       "ExitPoint": null,
       "DetectedLength": 50,
       "Start": 6210,
-      "Angle1": 156.0,
+      "Angle1": 162.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5018,10 +5193,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "1"
+      "Level": "1",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 97,
+      "Prg": 100,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5036,7 +5212,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -143,
+      "DistanceBefore": -175,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5044,7 +5220,7 @@
       "ExitPoint": null,
       "DetectedLength": 26,
       "Start": 6260,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5057,11 +5233,12 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 98,
-      "Hint": 3,
+      "Prg": 101,
+      "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -5075,7 +5252,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -167,
+      "DistanceBefore": -205,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5083,7 +5260,7 @@
       "ExitPoint": null,
       "DetectedLength": 57,
       "Start": 6286,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5124,10 +5301,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 99,
+      "Prg": 102,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5142,7 +5320,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -193,
+      "DistanceBefore": -213,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -5150,13 +5328,14 @@
       "ExitPoint": null,
       "DetectedLength": 68,
       "Start": 6343,
-      "Angle1": 113.0,
+      "Angle1": 115.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "4"
+      "Level": "4",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 100,
+      "Prg": 103,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5171,7 +5350,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -83,
+      "DistanceBefore": -109,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5179,7 +5358,7 @@
       "ExitPoint": null,
       "DetectedLength": 104,
       "Start": 6411,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5192,10 +5371,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "100"
+      "Level": "100",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 101,
+      "Prg": 104,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5210,7 +5390,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -158,
+      "DistanceBefore": -162,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5218,7 +5398,7 @@
       "ExitPoint": null,
       "DetectedLength": 46,
       "Start": 6515,
-      "Angle1": 142.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5268,10 +5448,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 102,
+      "Prg": 105,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5286,7 +5467,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -146,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5294,13 +5475,14 @@
       "ExitPoint": null,
       "DetectedLength": 41,
       "Start": 6561,
-      "Angle1": 132.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 103,
+      "Prg": 106,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5315,7 +5497,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -136,
+      "DistanceBefore": -141,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5323,12 +5505,12 @@
       "ExitPoint": null,
       "DetectedLength": 72,
       "Start": 6602,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
           "Name": null,
-          "Value": "70 twisty",
+          "Value": "70 straighten",
           "IsPrefixed": false,
           "Position": 0,
           "Components": [
@@ -5343,7 +5525,7 @@
             },
             {
               "Name": "Twisty",
-              "Value": "twisty",
+              "Value": "straighten",
               "IsPrefixed": false,
               "Position": 0,
               "Components": null,
@@ -5355,11 +5537,12 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "70"
+      "Level": "70",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 104,
-      "Hint": 4,
+      "Prg": 107,
+      "Hint": 2,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -5373,7 +5556,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -150,
+      "DistanceBefore": -170,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5381,7 +5564,7 @@
       "ExitPoint": null,
       "DetectedLength": 43,
       "Start": 6674,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5394,8 +5577,8 @@
           "ContainsTurn": true
         },
         {
-          "Name": "Into",
-          "Value": "+",
+          "Name": null,
+          "Value": "20",
           "IsPrefixed": false,
           "Position": 0,
           "Components": null,
@@ -5440,11 +5623,42 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 105,
-      "Hint": 6,
+      "Prg": 108,
+      "Hint": 0,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "AudioSet": 0,
+      "BlockCombos": false,
+      "ForceCombos": false,
+      "AttributesControl": true,
+      "LinksControl": false,
+      "IsUser": false,
+      "WarningLight": false,
+      "NoOptimizations": false,
+      "DetectedHint": null,
+      "DistanceBefore": -199,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "Slope": 0.0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 20,
+      "Start": 6717,
+      "Angle1": 176.0,
+      "Angle2": 0.0,
+      "TagList": [],
+      "Level": "20",
+      "IsSingleCornerOrCrest": false
+    },
+    {
+      "Prg": 109,
+      "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -5458,7 +5672,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -223,
+      "DistanceBefore": -214,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5466,7 +5680,7 @@
       "ExitPoint": null,
       "DetectedLength": 45,
       "Start": 6737,
-      "Angle1": 85.0,
+      "Angle1": 100.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5498,10 +5712,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "5"
+      "Level": "5",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 106,
+      "Prg": 110,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5516,7 +5731,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -51,
+      "DistanceBefore": -98,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5524,7 +5739,7 @@
       "ExitPoint": null,
       "DetectedLength": 17,
       "Start": 6787,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5565,10 +5780,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 107,
+      "Prg": 111,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5583,7 +5799,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -76,
+      "DistanceBefore": -106,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5591,13 +5807,14 @@
       "ExitPoint": null,
       "DetectedLength": 31,
       "Start": 6804,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 108,
+      "Prg": 112,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5612,7 +5829,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -103,
+      "DistanceBefore": -131,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5620,7 +5837,7 @@
       "ExitPoint": null,
       "DetectedLength": 6,
       "Start": 6835,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5633,10 +5850,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 109,
+      "Prg": 113,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5651,7 +5869,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -143,
+      "DistanceBefore": -146,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -5659,8 +5877,8 @@
       "ExitPoint": null,
       "DetectedLength": 87,
       "Start": 6841,
-      "Angle1": 165.0,
-      "Angle2": 163.0,
+      "Angle1": 162.0,
+      "Angle2": 162.0,
       "TagList": [
         {
           "Name": null,
@@ -5710,10 +5928,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "1 2x"
+      "Level": "1 2x",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 110,
+      "Prg": 114,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5728,7 +5947,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -131,
+      "DistanceBefore": -166,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5736,7 +5955,7 @@
       "ExitPoint": null,
       "DetectedLength": 34,
       "Start": 6928,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5749,10 +5968,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 111,
+      "Prg": 115,
       "Hint": 3,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5767,7 +5987,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -172,
+      "DistanceBefore": -207,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -5775,7 +5995,7 @@
       "ExitPoint": null,
       "DetectedLength": 50,
       "Start": 6962,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5825,10 +6045,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 112,
+      "Prg": 116,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5843,7 +6064,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -167,
+      "DistanceBefore": -165,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5851,7 +6072,7 @@
       "ExitPoint": null,
       "DetectedLength": 41,
       "Start": 7012,
-      "Angle1": 159.0,
+      "Angle1": 162.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5864,10 +6085,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "1"
+      "Level": "1",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 113,
+      "Prg": 117,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -5882,7 +6104,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -157,
+      "DistanceBefore": -183,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -5890,7 +6112,7 @@
       "ExitPoint": null,
       "DetectedLength": 51,
       "Start": 7053,
-      "Angle1": 141.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -5940,10 +6162,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 114,
+      "Prg": 118,
       "Hint": 0,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5958,7 +6181,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -136,
+      "DistanceBefore": -162,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5966,13 +6189,14 @@
       "ExitPoint": null,
       "DetectedLength": 24,
       "Start": 7104,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "20"
+      "Level": "20",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 115,
+      "Prg": 119,
       "Hint": 3,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -5987,7 +6211,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -152,
+      "DistanceBefore": -174,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -5995,13 +6219,14 @@
       "ExitPoint": null,
       "DetectedLength": 49,
       "Start": 7128,
-      "Angle1": 124.0,
+      "Angle1": 130.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "3"
+      "Level": "3",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 116,
+      "Prg": 120,
       "Hint": 4,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6016,7 +6241,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -114,
+      "DistanceBefore": -141,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -6024,7 +6249,7 @@
       "ExitPoint": null,
       "DetectedLength": 55,
       "Start": 7177,
-      "Angle1": 147.0,
+      "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -6056,10 +6281,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "2"
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 117,
+      "Prg": 121,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6074,7 +6300,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -125,
+      "DistanceBefore": -156,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -6082,7 +6308,7 @@
       "ExitPoint": null,
       "DetectedLength": 25,
       "Start": 7232,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -6123,10 +6349,11 @@
           "ContainsTurn": true
         }
       ],
-      "Level": "30"
+      "Level": "30",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 118,
+      "Prg": 122,
       "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6141,7 +6368,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -191,
+      "DistanceBefore": -178,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -6149,13 +6376,14 @@
       "ExitPoint": null,
       "DetectedLength": 66,
       "Start": 7257,
-      "Angle1": 143.0,
-      "Angle2": 103.0,
+      "Angle1": 145.0,
+      "Angle2": 115.0,
       "TagList": [],
-      "Level": "2>4"
+      "Level": "2>4",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 119,
+      "Prg": 123,
       "Hint": 0,
       "Enabled": true,
       "SimplifyNotation": false,
@@ -6170,7 +6398,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -72,
+      "DistanceBefore": -117,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -6178,7 +6406,7 @@
       "ExitPoint": null,
       "DetectedLength": 76,
       "Start": 7323,
-      "Angle1": 180.0,
+      "Angle1": 176.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -6191,11 +6419,12 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "70"
+      "Level": "70",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 120,
-      "Hint": 3,
+      "Prg": 124,
+      "Hint": 1,
       "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -6209,7 +6438,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -119,
+      "DistanceBefore": -153,
       "CallPointOffset": 0.0,
       "Text": "/T",
       "Slope": 0.0,
@@ -6217,7 +6446,7 @@
       "ExitPoint": null,
       "DetectedLength": 28,
       "Start": 7399,
-      "Angle1": 170.0,
+      "Angle1": 175.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -6239,10 +6468,11 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "0"
+      "Level": "0",
+      "IsSingleCornerOrCrest": true
     },
     {
-      "Prg": 121,
+      "Prg": 125,
       "Hint": 14,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6257,7 +6487,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -120,
+      "DistanceBefore": -155,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -6268,10 +6498,11 @@
       "Angle1": 0.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": ""
+      "Level": "",
+      "IsSingleCornerOrCrest": false
     },
     {
-      "Prg": 122,
+      "Prg": 126,
       "Hint": 15,
       "Enabled": false,
       "SimplifyNotation": false,
@@ -6307,7 +6538,8 @@
           "ContainsTurn": false
         }
       ],
-      "Level": ""
+      "Level": "",
+      "IsSingleCornerOrCrest": false
     }
   ]
 }
