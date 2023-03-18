@@ -2177,15 +2177,6 @@
           "Components": null,
           "Origin": 0,
           "ContainsTurn": false
-        },
-        {
-          "Name": "Slowdown",
-          "Value": "slowdn?",
-          "IsPrefixed": false,
-          "Position": 2,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": false
         }
       ],
       "Level": "0",
@@ -2207,7 +2198,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -214,
+      "DistanceBefore": -203,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2217,17 +2208,7 @@
       "Start": 3604,
       "Angle1": 176.0,
       "Angle2": 0.0,
-      "TagList": [
-        {
-          "Name": "Slowdown",
-          "Value": "slowdn?",
-          "IsPrefixed": false,
-          "Position": 2,
-          "Components": null,
-          "Origin": 2,
-          "ContainsTurn": false
-        }
-      ],
+      "TagList": [],
       "Level": "40",
       "IsSingleCornerOrCrest": false
     },
@@ -2258,6 +2239,15 @@
       "Angle1": 80.0,
       "Angle2": 0.0,
       "TagList": [
+        {
+          "Name": "Slowdown",
+          "Value": "slowdn?",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "L6",
@@ -2807,7 +2797,7 @@
     },
     {
       "Prg": 46,
-      "Hint": 6,
+      "Hint": 4,
       "Enabled": false,
       "SimplifyNotation": false,
       "CallPointControl": false,
@@ -2829,7 +2819,7 @@
       "ExitPoint": null,
       "DetectedLength": 120,
       "Start": 4610,
-      "Angle1": 70.0,
+      "Angle1": 80.0,
       "Angle2": 0.0,
       "TagList": [
         {
@@ -2861,7 +2851,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -60,
+      "DistanceBefore": -70,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -2910,7 +2900,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -97,
+      "DistanceBefore": -105,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
