@@ -61,7 +61,7 @@
       "DetectedHint": null,
       "DistanceBefore": -30,
       "CallPointOffset": 0.0,
-      "Text": "version: 0.5",
+      "Text": "",
       "Slope": 0.0,
       "EntryPoint": [
         0.0,
@@ -7165,6 +7165,15 @@
           ],
           "Origin": 0,
           "ContainsTurn": false
+        },
+        {
+          "Name": "Jump",
+          "Value": "Jump",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
         }
       ],
       "Level": "70",
@@ -7299,6 +7308,15 @@
               "ContainsTurn": false
             }
           ],
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
+          "Name": "Jump",
+          "Value": "Jump",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
           "Origin": 2,
           "ContainsTurn": false
         }
@@ -11030,6 +11048,15 @@
           "Components": null,
           "Origin": 0,
           "ContainsTurn": false
+        },
+        {
+          "Name": "Jump",
+          "Value": "Jump",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
         }
       ],
       "Level": "70",
@@ -11091,7 +11118,17 @@
       "Start": 9985,
       "Angle1": 180.0,
       "Angle2": 0.0,
-      "TagList": [],
+      "TagList": [
+        {
+          "Name": "Jump",
+          "Value": "Jump",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        }
+      ],
       "Level": "",
       "IsSingleCornerOrCrest": true
     },
