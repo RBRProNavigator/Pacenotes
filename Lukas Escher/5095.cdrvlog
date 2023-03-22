@@ -130,8 +130,8 @@
       "TagList": [
         {
           "Name": null,
-          "Value": "x L1",
-          "IsPrefixed": false,
+          "Value": "x !",
+          "IsPrefixed": true,
           "Position": 0,
           "Components": [
             {
@@ -144,15 +144,24 @@
               "ContainsTurn": false
             },
             {
-              "Name": null,
-              "Value": "L1",
-              "IsPrefixed": false,
+              "Name": "Caution",
+              "Value": "!",
+              "IsPrefixed": true,
               "Position": 0,
               "Components": null,
-              "Origin": 0,
-              "ContainsTurn": true
+              "Origin": 2,
+              "ContainsTurn": false
             }
           ],
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "L1",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
           "Origin": 0,
           "ContainsTurn": true
         },
