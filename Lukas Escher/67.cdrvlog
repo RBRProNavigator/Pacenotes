@@ -4730,9 +4730,37 @@
           "ContainsTurn": true
         },
         {
-          "Name": "And",
-          "Value": "&",
-          "IsPrefixed": false,
+          "Name": null,
+          "Value": "& !",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": [
+            {
+              "Name": "And",
+              "Value": "&",
+              "IsPrefixed": false,
+              "Position": 0,
+              "Components": null,
+              "Origin": 0,
+              "ContainsTurn": false
+            },
+            {
+              "Name": "Caution",
+              "Value": "!",
+              "IsPrefixed": true,
+              "Position": 0,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
+          "Name": "Slowdown",
+          "Value": "slowdown",
+          "IsPrefixed": true,
           "Position": 0,
           "Components": null,
           "Origin": 0,
@@ -4865,6 +4893,43 @@
       "Angle1": 180.0,
       "Angle2": 0.0,
       "TagList": [
+        {
+          "Name": null,
+          "Value": "& !",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": [
+            {
+              "Name": "And",
+              "Value": "&",
+              "IsPrefixed": false,
+              "Position": 0,
+              "Components": null,
+              "Origin": 0,
+              "ContainsTurn": false
+            },
+            {
+              "Name": "Caution",
+              "Value": "!",
+              "IsPrefixed": true,
+              "Position": 0,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
+          "Name": "Slowdown",
+          "Value": "slowdown",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "keep middle / Jump",
