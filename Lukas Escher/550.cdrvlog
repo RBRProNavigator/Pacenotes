@@ -3082,15 +3082,6 @@
           "Components": null,
           "Origin": 0,
           "ContainsTurn": true
-        },
-        {
-          "Name": "Tightens",
-          "Value": ">",
-          "IsPrefixed": false,
-          "Position": 2,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": false
         }
       ],
       "Level": "6",
@@ -3188,15 +3179,6 @@
               "ContainsTurn": false
             }
           ],
-          "Origin": 2,
-          "ContainsTurn": false
-        },
-        {
-          "Name": "Tightens",
-          "Value": ">",
-          "IsPrefixed": false,
-          "Position": 2,
-          "Components": null,
           "Origin": 2,
           "ContainsTurn": false
         }
@@ -4524,7 +4506,7 @@
       "ForceCombos": false,
       "AttributesControl": true,
       "LinksControl": false,
-      "IsUser": false,
+      "IsUser": true,
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
@@ -4536,12 +4518,12 @@
       "ExitPoint": null,
       "DetectedLength": 56,
       "Start": 4377,
-      "Angle1": 169.0,
+      "Angle1": 155.0,
       "Angle2": 0.0,
       "TagList": [
         {
           "Name": null,
-          "Value": "R6",
+          "Value": "R5",
           "IsPrefixed": false,
           "Position": 0,
           "Components": null,
@@ -4552,13 +4534,13 @@
           "Name": null,
           "Value": "/ Crest",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": [
             {
               "Name": "Over",
               "Value": "/",
               "IsPrefixed": false,
-              "Position": 0,
+              "Position": 2,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
@@ -4567,7 +4549,7 @@
               "Name": "Crest",
               "Value": "Crest",
               "IsPrefixed": false,
-              "Position": 0,
+              "Position": 2,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
@@ -4580,13 +4562,13 @@
           "Name": "Cut",
           "Value": "cut",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": null,
           "Origin": 2,
           "ContainsTurn": false
         }
       ],
-      "Level": "6",
+      "Level": "5",
       "IsSingleCornerOrCrest": true
     },
     {
@@ -4605,7 +4587,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -188,
+      "DistanceBefore": -167,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -4672,7 +4654,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -209,
+      "DistanceBefore": -208,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -6208,17 +6190,8 @@
           "ContainsTurn": false
         },
         {
-          "Name": "Caution",
-          "Value": "!",
-          "IsPrefixed": true,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": false
-        },
-        {
-          "Name": "Slowdown",
-          "Value": "slowdown",
+          "Name": "TripleCaution",
+          "Value": "!!!",
           "IsPrefixed": true,
           "Position": 0,
           "Components": null,
@@ -6227,7 +6200,7 @@
         },
         {
           "Name": null,
-          "Value": "R5",
+          "Value": "R4",
           "IsPrefixed": false,
           "Position": 0,
           "Components": null,
@@ -6235,10 +6208,19 @@
           "ContainsTurn": true
         },
         {
+          "Name": "Slow",
+          "Value": "-",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
           "Name": "Keep",
           "Value": "hold",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": null,
           "Origin": 0,
           "ContainsTurn": false
@@ -6327,12 +6309,12 @@
       "ExitPoint": null,
       "DetectedLength": 75,
       "Start": 6048,
-      "Angle1": 156.0,
+      "Angle1": 135.0,
       "Angle2": 0.0,
       "TagList": [
         {
-          "Name": "Caution",
-          "Value": "!",
+          "Name": "TripleCaution",
+          "Value": "!!!",
           "IsPrefixed": true,
           "Position": 0,
           "Components": null,
@@ -6340,10 +6322,10 @@
           "ContainsTurn": false
         },
         {
-          "Name": "Slowdown",
-          "Value": "slowdown",
-          "IsPrefixed": true,
-          "Position": 0,
+          "Name": "Slow",
+          "Value": "-",
+          "IsPrefixed": false,
+          "Position": 2,
           "Components": null,
           "Origin": 2,
           "ContainsTurn": false
@@ -6352,13 +6334,13 @@
           "Name": "Keep",
           "Value": "hold",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": null,
           "Origin": 2,
           "ContainsTurn": false
         }
       ],
-      "Level": "5",
+      "Level": "4",
       "IsSingleCornerOrCrest": true
     },
     {
@@ -6377,7 +6359,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -173,
+      "DistanceBefore": -141,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -6779,6 +6761,15 @@
           "ContainsTurn": false
         },
         {
+          "Name": "Caution",
+          "Value": "!",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
           "Name": null,
           "Value": "R4 cut",
           "IsPrefixed": false,
@@ -6893,6 +6884,15 @@
       "Angle1": 142.0,
       "Angle2": 0.0,
       "TagList": [
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "R4 cut",
