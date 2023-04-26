@@ -8793,6 +8793,15 @@
           "Components": null,
           "Origin": 0,
           "ContainsTurn": false
+        },
+        {
+          "Name": "Slow",
+          "Value": "-",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
         }
       ],
       "Level": "50",
@@ -8824,7 +8833,17 @@
       "Start": 11370,
       "Angle1": 166.0,
       "Angle2": 150.0,
-      "TagList": [],
+      "TagList": [
+        {
+          "Name": "Slow",
+          "Value": "-",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        }
+      ],
       "Level": "6>5",
       "IsSingleCornerOrCrest": true
     },
@@ -9318,6 +9337,33 @@
           ],
           "Origin": 2,
           "ContainsTurn": false
+        },
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "L3",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": true
+        },
+        {
+          "Name": "LateApex",
+          "Value": "late",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
         }
       ],
       "Level": "70",
@@ -9326,13 +9372,13 @@
     {
       "Prg": 157,
       "Hint": 4,
-      "Enabled": true,
+      "Enabled": false,
       "SimplifyNotation": false,
       "CallPointControl": false,
       "SimplificationControl": false,
       "AudioSet": 0,
       "BlockCombos": false,
-      "ForceCombos": false,
+      "ForceCombos": true,
       "AttributesControl": true,
       "LinksControl": false,
       "IsUser": true,
@@ -9351,13 +9397,13 @@
       "Angle2": 0.0,
       "TagList": [
         {
-          "Name": null,
-          "Value": "L3",
-          "IsPrefixed": false,
+          "Name": "Caution",
+          "Value": "!",
+          "IsPrefixed": true,
           "Position": 0,
           "Components": null,
-          "Origin": 0,
-          "ContainsTurn": true
+          "Origin": 2,
+          "ContainsTurn": false
         },
         {
           "Name": "LateApex",
@@ -9579,7 +9625,7 @@
       "AudioSet": 0,
       "BlockCombos": false,
       "ForceCombos": false,
-      "AttributesControl": false,
+      "AttributesControl": true,
       "LinksControl": false,
       "IsUser": true,
       "WarningLight": false,
@@ -9598,6 +9644,34 @@
       "TagList": [
         {
           "Name": null,
+          "Value": "keep L",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": [
+            {
+              "Name": "Stay",
+              "Value": "keep",
+              "IsPrefixed": true,
+              "Position": 0,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            },
+            {
+              "Name": "Left",
+              "Value": "L",
+              "IsPrefixed": true,
+              "Position": 0,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
+          "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
           "Value": "120",
           "IsPrefixed": false,
           "Position": 0,
@@ -9606,31 +9680,12 @@
           "ContainsTurn": false
         },
         {
-          "Name": null,
-          "Value": "keep L",
-          "IsPrefixed": false,
-          "Position": 2,
-          "Components": [
-            {
-              "Name": "Stay",
-              "Value": "keep",
-              "IsPrefixed": false,
-              "Position": 2,
-              "Components": null,
-              "Origin": 2,
-              "ContainsTurn": false
-            },
-            {
-              "Name": "Left",
-              "Value": "L",
-              "IsPrefixed": false,
-              "Position": 2,
-              "Components": null,
-              "Origin": 2,
-              "ContainsTurn": false
-            }
-          ],
-          "Origin": 2,
+          "Name": "Caution",
+          "Value": "!",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
           "ContainsTurn": false
         },
         {
@@ -9691,6 +9746,15 @@
       "Angle1": 142.0,
       "Angle2": 0.0,
       "TagList": [
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": "Tightens",
           "Value": ">",
@@ -9858,7 +9922,7 @@
       "CallPointControl": false,
       "SimplificationControl": false,
       "AudioSet": 0,
-      "BlockCombos": false,
+      "BlockCombos": true,
       "ForceCombos": false,
       "AttributesControl": true,
       "LinksControl": false,
@@ -9894,24 +9958,6 @@
           "Components": null,
           "Origin": 0,
           "ContainsTurn": true
-        },
-        {
-          "Name": null,
-          "Value": "50",
-          "IsPrefixed": false,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": false
-        },
-        {
-          "Name": null,
-          "Value": "R2",
-          "IsPrefixed": false,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": true
         }
       ],
       "Level": "4",
@@ -9920,7 +9966,7 @@
     {
       "Prg": 168,
       "Hint": 0,
-      "Enabled": false,
+      "Enabled": true,
       "SimplifyNotation": false,
       "CallPointControl": false,
       "SimplificationControl": false,
@@ -9943,77 +9989,34 @@
       "Start": 13488,
       "Angle1": 180.0,
       "Angle2": 0.0,
-      "TagList": [],
-      "Level": "50",
-      "IsSingleCornerOrCrest": false
-    },
-    {
-      "Prg": 169,
-      "Hint": 3,
-      "Enabled": false,
-      "SimplifyNotation": false,
-      "CallPointControl": false,
-      "SimplificationControl": false,
-      "AudioSet": 0,
-      "BlockCombos": false,
-      "ForceCombos": true,
-      "AttributesControl": true,
-      "LinksControl": false,
-      "IsUser": true,
-      "WarningLight": false,
-      "NoOptimizations": true,
-      "DetectedHint": null,
-      "DistanceBefore": -146,
-      "CallPointOffset": 0.0,
-      "Text": "",
-      "Slope": 0.0,
-      "EntryPoint": null,
-      "ExitPoint": null,
-      "DetectedLength": 52,
-      "Start": 13538,
-      "Angle1": 110.0,
-      "Angle2": 0.0,
       "TagList": [
         {
           "Name": null,
-          "Value": "",
-          "IsPrefixed": true,
+          "Value": "50",
+          "IsPrefixed": false,
           "Position": 0,
           "Components": null,
-          "Origin": 2,
+          "Origin": 0,
           "ContainsTurn": false
-        }
-      ],
-      "Level": "2",
-      "IsSingleCornerOrCrest": true
-    },
-    {
-      "Prg": 170,
-      "Hint": 3,
-      "Enabled": true,
-      "SimplifyNotation": false,
-      "CallPointControl": false,
-      "SimplificationControl": false,
-      "AudioSet": 0,
-      "BlockCombos": false,
-      "ForceCombos": false,
-      "AttributesControl": true,
-      "LinksControl": false,
-      "IsUser": true,
-      "WarningLight": false,
-      "NoOptimizations": true,
-      "DetectedHint": null,
-      "DistanceBefore": -106,
-      "CallPointOffset": 0.0,
-      "Text": "",
-      "Slope": 0.0,
-      "EntryPoint": null,
-      "ExitPoint": null,
-      "DetectedLength": 44,
-      "Start": 13612,
-      "Angle1": 110.0,
-      "Angle2": 0.0,
-      "TagList": [
+        },
+        {
+          "Name": null,
+          "Value": "R2",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": true
+        },
+        {
+          "Name": "Slow",
+          "Value": "-",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "x R2",
@@ -10048,7 +10051,7 @@
           "IsPrefixed": false,
           "Position": 2,
           "Components": null,
-          "Origin": 2,
+          "Origin": 0,
           "ContainsTurn": false
         },
         {
@@ -10076,6 +10079,86 @@
           "Position": 2,
           "Components": null,
           "Origin": 0,
+          "ContainsTurn": false
+        }
+      ],
+      "Level": "50",
+      "IsSingleCornerOrCrest": false
+    },
+    {
+      "Prg": 169,
+      "Hint": 3,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "AudioSet": 0,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": true,
+      "LinksControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": true,
+      "DetectedHint": null,
+      "DistanceBefore": -146,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "Slope": 0.0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 52,
+      "Start": 13538,
+      "Angle1": 110.0,
+      "Angle2": 0.0,
+      "TagList": [
+        {
+          "Name": "Slow",
+          "Value": "-",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        }
+      ],
+      "Level": "2",
+      "IsSingleCornerOrCrest": true
+    },
+    {
+      "Prg": 170,
+      "Hint": 3,
+      "Enabled": false,
+      "SimplifyNotation": false,
+      "CallPointControl": false,
+      "SimplificationControl": false,
+      "AudioSet": 0,
+      "BlockCombos": false,
+      "ForceCombos": true,
+      "AttributesControl": true,
+      "LinksControl": false,
+      "IsUser": true,
+      "WarningLight": false,
+      "NoOptimizations": true,
+      "DetectedHint": null,
+      "DistanceBefore": -106,
+      "CallPointOffset": 0.0,
+      "Text": "",
+      "Slope": 0.0,
+      "EntryPoint": null,
+      "ExitPoint": null,
+      "DetectedLength": 44,
+      "Start": 13612,
+      "Angle1": 110.0,
+      "Angle2": 0.0,
+      "TagList": [
+        {
+          "Name": "Keep",
+          "Value": "hold",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
           "ContainsTurn": false
         }
       ],
@@ -10259,7 +10342,7 @@
       "AudioSet": 0,
       "BlockCombos": false,
       "ForceCombos": false,
-      "AttributesControl": false,
+      "AttributesControl": true,
       "LinksControl": false,
       "IsUser": true,
       "WarningLight": false,
@@ -10278,24 +10361,15 @@
       "TagList": [
         {
           "Name": null,
-          "Value": "50",
-          "IsPrefixed": false,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": false
-        },
-        {
-          "Name": null,
           "Value": "keep L",
-          "IsPrefixed": false,
-          "Position": 2,
+          "IsPrefixed": true,
+          "Position": 0,
           "Components": [
             {
               "Name": "Stay",
               "Value": "keep",
-              "IsPrefixed": false,
-              "Position": 2,
+              "IsPrefixed": true,
+              "Position": 0,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
@@ -10303,14 +10377,23 @@
             {
               "Name": "Left",
               "Value": "L",
-              "IsPrefixed": false,
-              "Position": 2,
+              "IsPrefixed": true,
+              "Position": 0,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
             }
           ],
           "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "50",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
           "ContainsTurn": false
         },
         {
@@ -10512,7 +10595,7 @@
       "AudioSet": 0,
       "BlockCombos": false,
       "ForceCombos": false,
-      "AttributesControl": false,
+      "AttributesControl": true,
       "LinksControl": false,
       "IsUser": true,
       "WarningLight": false,
@@ -10540,24 +10623,15 @@
         },
         {
           "Name": null,
-          "Value": "50",
-          "IsPrefixed": false,
-          "Position": 0,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": false
-        },
-        {
-          "Name": null,
           "Value": "keep R",
-          "IsPrefixed": false,
-          "Position": 2,
+          "IsPrefixed": true,
+          "Position": 0,
           "Components": [
             {
               "Name": "Stay",
               "Value": "keep",
-              "IsPrefixed": false,
-              "Position": 2,
+              "IsPrefixed": true,
+              "Position": 0,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
@@ -10565,14 +10639,23 @@
             {
               "Name": "Right",
               "Value": "R",
-              "IsPrefixed": false,
-              "Position": 2,
+              "IsPrefixed": true,
+              "Position": 0,
               "Components": null,
               "Origin": 2,
               "ContainsTurn": false
             }
           ],
           "Origin": 2,
+          "ContainsTurn": false
+        },
+        {
+          "Name": null,
+          "Value": "50",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
           "ContainsTurn": false
         },
         {
@@ -12084,13 +12167,13 @@
       "AudioSet": 0,
       "BlockCombos": false,
       "ForceCombos": false,
-      "AttributesControl": false,
+      "AttributesControl": true,
       "LinksControl": false,
       "IsUser": true,
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -164,
+      "DistanceBefore": -173,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -12101,6 +12184,15 @@
       "Angle1": 180.0,
       "Angle2": 0.0,
       "TagList": [
+        {
+          "Name": "Caution",
+          "Value": "!",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "70",
@@ -12440,7 +12532,7 @@
         },
         {
           "Name": null,
-          "Value": "L THp",
+          "Value": "L Hp",
           "IsPrefixed": false,
           "Position": 0,
           "Components": null,
@@ -12475,10 +12567,10 @@
       "ExitPoint": null,
       "DetectedLength": 30,
       "Start": 16850,
-      "Angle1": 40.0,
+      "Angle1": 55.0,
       "Angle2": 0.0,
       "TagList": [],
-      "Level": "THp",
+      "Level": "Hp",
       "IsSingleCornerOrCrest": true
     },
     {
@@ -12497,7 +12589,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -40,
+      "DistanceBefore": -49,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -12620,7 +12712,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -72,
+      "DistanceBefore": -78,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -12669,7 +12761,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -104,
+      "DistanceBefore": -108,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -12792,7 +12884,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -124,
+      "DistanceBefore": -126,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -13160,15 +13252,6 @@
           "ContainsTurn": true
         },
         {
-          "Name": "Slow",
-          "Value": "-",
-          "IsPrefixed": false,
-          "Position": 2,
-          "Components": null,
-          "Origin": 0,
-          "ContainsTurn": false
-        },
-        {
           "Name": "And",
           "Value": "&",
           "IsPrefixed": false,
@@ -13243,7 +13326,7 @@
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
-      "DistanceBefore": -209,
+      "DistanceBefore": -208,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -13253,17 +13336,7 @@
       "Start": 17440,
       "Angle1": 125.0,
       "Angle2": 0.0,
-      "TagList": [
-        {
-          "Name": "Slow",
-          "Value": "-",
-          "IsPrefixed": false,
-          "Position": 2,
-          "Components": null,
-          "Origin": 2,
-          "ContainsTurn": false
-        }
-      ],
+      "TagList": [],
       "Level": "3",
       "IsSingleCornerOrCrest": true
     },
