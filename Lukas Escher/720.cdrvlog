@@ -2,7 +2,7 @@
   "SwVersion": "2.4.0.0",
   "Game": "RBR",
   "TrackCode": "720",
-  "SurfaceWetness": 1,
+  "SurfaceWetness": 0,
   "Nation": 0,
   "Author": null,
   "VersionMajor": 0,
@@ -170,7 +170,7 @@
       "DetectedHint": null,
       "DistanceBefore": -93,
       "CallPointOffset": 0.0,
-      "Text": "",
+      "Text": "made by Lukas Escher",
       "Slope": 0.0,
       "EntryPoint": null,
       "ExitPoint": null,
@@ -5692,7 +5692,7 @@
           "Name": "Tightens",
           "Value": ">",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": null,
           "Origin": 0,
           "ContainsTurn": false
@@ -5713,7 +5713,7 @@
       "ForceCombos": false,
       "AttributesControl": true,
       "LinksControl": false,
-      "IsUser": false,
+      "IsUser": true,
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
@@ -5732,7 +5732,7 @@
           "Name": "Tightens",
           "Value": ">",
           "IsPrefixed": false,
-          "Position": 0,
+          "Position": 2,
           "Components": null,
           "Origin": 2,
           "ContainsTurn": false
@@ -5757,7 +5757,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -103,
+      "DistanceBefore": -110,
       "CallPointOffset": 2.0,
       "Text": "+2",
       "Slope": 0.0,
@@ -5768,6 +5768,34 @@
       "Angle1": 180.0,
       "Angle2": 0.0,
       "TagList": [
+        {
+          "Name": null,
+          "Value": "keep L",
+          "IsPrefixed": true,
+          "Position": 0,
+          "Components": [
+            {
+              "Name": "Stay",
+              "Value": "keep",
+              "IsPrefixed": true,
+              "Position": 0,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            },
+            {
+              "Name": "Left",
+              "Value": "L",
+              "IsPrefixed": true,
+              "Position": 0,
+              "Components": null,
+              "Origin": 2,
+              "ContainsTurn": false
+            }
+          ],
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "50",
