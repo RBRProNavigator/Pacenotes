@@ -8263,8 +8263,8 @@
           "ContainsTurn": false
         },
         {
-          "Name": "Caution",
-          "Value": "!",
+          "Name": "DoubleCaution",
+          "Value": "!!",
           "IsPrefixed": true,
           "Position": 0,
           "Components": null,
@@ -8273,12 +8273,21 @@
         },
         {
           "Name": null,
-          "Value": "L3",
+          "Value": "L2",
           "IsPrefixed": false,
           "Position": 0,
           "Components": null,
           "Origin": 0,
           "ContainsTurn": true
+        },
+        {
+          "Name": null,
+          "Value": "< 3",
+          "IsPrefixed": false,
+          "Position": 0,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
         }
       ],
       "Level": "100",
@@ -8296,7 +8305,7 @@
       "ForceCombos": true,
       "AttributesControl": true,
       "LinksControl": false,
-      "IsUser": false,
+      "IsUser": true,
       "WarningLight": false,
       "NoOptimizations": true,
       "DetectedHint": null,
@@ -8308,12 +8317,12 @@
       "ExitPoint": null,
       "DetectedLength": 42,
       "Start": 10483,
-      "Angle1": 125.0,
-      "Angle2": 0.0,
+      "Angle1": 108.0,
+      "Angle2": 125.0,
       "TagList": [
         {
-          "Name": "Caution",
-          "Value": "!",
+          "Name": "DoubleCaution",
+          "Value": "!!",
           "IsPrefixed": true,
           "Position": 0,
           "Components": null,
@@ -8321,7 +8330,7 @@
           "ContainsTurn": false
         }
       ],
-      "Level": "3",
+      "Level": "2<3",
       "IsSingleCornerOrCrest": true
     },
     {
@@ -8340,7 +8349,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -121,
+      "DistanceBefore": -100,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 0.0,
@@ -8389,7 +8398,7 @@
       "WarningLight": false,
       "NoOptimizations": false,
       "DetectedHint": null,
-      "DistanceBefore": -166,
+      "DistanceBefore": -153,
       "CallPointOffset": 0.0,
       "Text": "",
       "Slope": 20.0,
