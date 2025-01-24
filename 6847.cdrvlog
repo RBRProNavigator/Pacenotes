@@ -12360,6 +12360,15 @@
           "ContainsTurn": true
         },
         {
+          "Name": "NoCut",
+          "Value": "dont.cut",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 0,
+          "ContainsTurn": false
+        },
+        {
           "Name": null,
           "Value": "keep middle",
           "IsPrefixed": false,
@@ -12418,6 +12427,15 @@
       "Angle1": 145.0,
       "Angle2": 0.0,
       "TagList": [
+        {
+          "Name": "NoCut",
+          "Value": "dont.cut",
+          "IsPrefixed": false,
+          "Position": 2,
+          "Components": null,
+          "Origin": 2,
+          "ContainsTurn": false
+        },
         {
           "Name": null,
           "Value": "keep middle",
